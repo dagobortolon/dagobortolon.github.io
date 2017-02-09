@@ -1,7 +1,7 @@
 // Garden Gnome Software - Skin
 // Object2VR 2.0.2/2407
-// Filename: grey_multirow phorma.ggsk
-// Generated sex 3. fev 15:31:45 2017
+// Filename: grey_multirow phorma celular Sansung J1.ggsk
+// Generated qui 9. fev 11:55:18 2017
 
 function object2vrSkin(player,base) {
 	var me=this;
@@ -94,9 +94,7 @@ function object2vrSkin(player,base) {
 		preLoadImg.src=basePath + 'images/zoomout__o.png';
 		preLoadImg.src=basePath + 'images/autorotate__o.png';
 		preLoadImg.src=basePath + 'images/fullscreen__o.png';
-		preLoadImg.src=basePath + 'images/button_250__o.png';
 		preLoadImg.src=basePath + 'images/button_25__o.png';
-		preLoadImg.src=basePath + 'images/button_26__o.png';
 	}
 	
 	this.addSkin=function() {
@@ -318,14 +316,14 @@ function object2vrSkin(player,base) {
 			this.style[domTransition]='none';
 			if (this.parentNode) {
 				w=this.parentNode.offsetWidth;
-				this.style.left=(-105 + w/2) + 'px';
+				this.style.left=(-159 + w/2) + 'px';
 				h=this.parentNode.offsetHeight;
-				this.style.top=(-30 + h/2) + 'px';
+				this.style.top=(-42 + h/2) + 'px';
 			}
 		}
 		hs ='position:absolute;';
-		hs+='left: -105px;';
-		hs+='top:  -30px;';
+		hs+='left: -159px;';
+		hs+='top:  -42px;';
 		hs+='width: 210px;';
 		hs+='height: 60px;';
 		hs+=cssPrefix + 'transform-origin: 50% 50%;';
@@ -420,14 +418,14 @@ function object2vrSkin(player,base) {
 			this.style[domTransition]='none';
 			if (this.parentNode) {
 				w=this.parentNode.offsetWidth;
-				this.style.left=(-120 + w/2) + 'px';
+				this.style.left=(-174 + w/2) + 'px';
 				h=this.parentNode.offsetHeight;
-				this.style.top=(-80 + h/2) + 'px';
+				this.style.top=(-92 + h/2) + 'px';
 			}
 		}
 		hs ='position:absolute;';
-		hs+='left: -120px;';
-		hs+='top:  -80px;';
+		hs+='left: -174px;';
+		hs+='top:  -92px;';
 		hs+='width: 240px;';
 		hs+='height: 140px;';
 		hs+=cssPrefix + 'transform-origin: 50% 50%;';
@@ -589,69 +587,43 @@ function object2vrSkin(player,base) {
 		this._copyright.ggUpdateText();
 		this._userdata.appendChild(this._copyright);
 		this.divSkin.appendChild(this._userdata);
-		this._image_23=document.createElement('div');
-		this._image_23.ggId='Image 23'
-		this._image_23.ggParameter={ rx:0,ry:0,a:0,sx:1,sy:1 };
-		this._image_23.ggVisible=true;
-		this._image_23.ggUpdatePosition=function() {
-			this.style[domTransition]='none';
-			if (this.parentNode) {
-				w=this.parentNode.offsetWidth;
-				this.style.left=(-136 + w) + 'px';
-			}
-		}
-		hs ='position:absolute;';
-		hs+='left: -136px;';
-		hs+='top:  11px;';
-		hs+='width: 118px;';
-		hs+='height: 27px;';
-		hs+=cssPrefix + 'transform-origin: 100% 0%;';
-		hs+='visibility: inherit;';
-		hs+='cursor: pointer;';
-		this._image_23.setAttribute('style',hs);
-		this._image_23__img=document.createElement('img');
-		this._image_23__img.setAttribute('src',basePath + 'images/image_23.png');
-		this._image_23__img.setAttribute('style','position: absolute;top: 0px;left: 0px;');
-		me.player.checkLoaded.push(this._image_23__img);
-		this._image_23.appendChild(this._image_23__img);
-		this.divSkin.appendChild(this._image_23);
-		this._button_250=document.createElement('div');
-		this._button_250.ggId='Button 25'
-		this._button_250.ggParameter={ rx:0,ry:0,a:0,sx:1,sy:1 };
-		this._button_250.ggVisible=true;
-		this._button_250.ggUpdatePosition=function() {
+		this._button_25=document.createElement('div');
+		this._button_25.ggId='Button 25'
+		this._button_25.ggParameter={ rx:0,ry:0,a:0,sx:1,sy:1 };
+		this._button_25.ggVisible=true;
+		this._button_25.ggUpdatePosition=function() {
 			this.style[domTransition]='none';
 			if (this.parentNode) {
 				w=this.parentNode.offsetWidth;
 				this.style.left=(-130 + w) + 'px';
 				h=this.parentNode.offsetHeight;
-				this.style.top=(-47 + h) + 'px';
+				this.style.top=(-48 + h) + 'px';
 			}
 		}
 		hs ='position:absolute;';
 		hs+='left: -130px;';
-		hs+='top:  -47px;';
+		hs+='top:  -48px;';
 		hs+='width: 118px;';
 		hs+='height: 48px;';
 		hs+=cssPrefix + 'transform-origin: 50% 50%;';
 		hs+='visibility: inherit;';
 		hs+='cursor: pointer;';
-		this._button_250.setAttribute('style',hs);
-		this._button_250__img=document.createElement('img');
-		this._button_250__img.setAttribute('src',basePath + 'images/button_250.png');
-		this._button_250__img.setAttribute('style','position: absolute;top: 0px;left: 0px;');
-		me.player.checkLoaded.push(this._button_250__img);
-		this._button_250.appendChild(this._button_250__img);
-		this._button_250.onclick=function () {
-			me.player.openUrl("http:\/\/www.casasbahia.com.br\/Eletrodomesticos\/GeladeiraeRefrigerador\/2Portas\/Refrigerador-Esmaltec-RCD34-Branco-276-L-3518835.html?IdProduto=1183205&recsource=btermo&rectype=p1_op_s2","0");
+		this._button_25.setAttribute('style',hs);
+		this._button_25__img=document.createElement('img');
+		this._button_25__img.setAttribute('src',basePath + 'images/button_25.png');
+		this._button_25__img.setAttribute('style','position: absolute;top: 0px;left: 0px;');
+		me.player.checkLoaded.push(this._button_25__img);
+		this._button_25.appendChild(this._button_25__img);
+		this._button_25.onclick=function () {
+			me.player.openUrl("http:\/\/www.casasbahia.com.br\/TelefoneseCelulares\/Smartphones\/Android\/Smartphone-Samsung-Galaxy-J1-Mini-Duos-Preto-com-Dual-Chip-Tela-4-0-3G-Camera-de-5MP-Android-5-1-e-Processador-Quad-Core-de-1-2-GHz-7316833.html?IdProduto=3977407&recsource=btermo&rectype=p1_op_s6","0");
 		}
-		this._button_250.onmouseover=function () {
-			me._button_250__img.src=basePath + 'images/button_250__o.png';
+		this._button_25.onmouseover=function () {
+			me._button_25__img.src=basePath + 'images/button_25__o.png';
 		}
-		this._button_250.onmouseout=function () {
-			me._button_250__img.src=basePath + 'images/button_250.png';
+		this._button_25.onmouseout=function () {
+			me._button_25__img.src=basePath + 'images/button_25.png';
 		}
-		this.divSkin.appendChild(this._button_250);
+		this.divSkin.appendChild(this._button_25);
 		this._casas_bahia=document.createElement('div');
 		this._casas_bahia.ggId='casas bahia'
 		this._casas_bahia.ggParameter={ rx:0,ry:0,a:0,sx:0.7,sy:0.7 };
@@ -701,82 +673,60 @@ function object2vrSkin(player,base) {
 		me.player.checkLoaded.push(this._bahianinho__img);
 		this._bahianinho.appendChild(this._bahianinho__img);
 		this.divSkin.appendChild(this._bahianinho);
-		this._button_25=document.createElement('div');
-		this._button_25.ggId='Button 25'
-		this._button_25.ggParameter={ rx:0,ry:0,a:0,sx:0.5,sy:0.5 };
-		this._button_25.ggVisible=true;
-		this._button_25.ggUpdatePosition=function() {
+		this._image_250=document.createElement('div');
+		this._image_250.ggId='Image 25'
+		this._image_250.ggParameter={ rx:0,ry:0,a:0,sx:0.4,sy:0.4 };
+		this._image_250.ggVisible=true;
+		this._image_250.ggUpdatePosition=function() {
 			this.style[domTransition]='none';
 			if (this.parentNode) {
-				w=this.parentNode.offsetWidth;
-				this.style.left=(-127 + w) + 'px';
 				h=this.parentNode.offsetHeight;
-				this.style.top=(-96 + h/2) + 'px';
+				this.style.top=(-188 + h/2) + 'px';
 			}
 		}
 		hs ='position:absolute;';
-		hs+='left: -127px;';
-		hs+='top:  -96px;';
-		hs+='width: 118px;';
-		hs+='height: 120px;';
-		hs+=cssPrefix + 'transform-origin: 100% 50%;';
-		hs+=cssPrefix + 'transform: ' + parameterToTransform(this._button_25.ggParameter) + ';';
+		hs+='left: 18px;';
+		hs+='top:  -188px;';
+		hs+='width: 288px;';
+		hs+='height: 125px;';
+		hs+=cssPrefix + 'transform-origin: 0% 50%;';
+		hs+=cssPrefix + 'transform: ' + parameterToTransform(this._image_250.ggParameter) + ';';
 		hs+='visibility: inherit;';
-		hs+='cursor: pointer;';
-		this._button_25.setAttribute('style',hs);
-		this._button_25__img=document.createElement('img');
-		this._button_25__img.setAttribute('src',basePath + 'images/button_25.png');
-		this._button_25__img.setAttribute('style','position: absolute;top: 0px;left: 0px;');
-		me.player.checkLoaded.push(this._button_25__img);
-		this._button_25.appendChild(this._button_25__img);
-		this._button_25.onclick=function () {
-			me.player.changeViewstate("1",".05");
-		}
-		this._button_25.onmouseover=function () {
-			me._button_25__img.src=basePath + 'images/button_25__o.png';
-		}
-		this._button_25.onmouseout=function () {
-			me._button_25__img.src=basePath + 'images/button_25.png';
-		}
-		this.divSkin.appendChild(this._button_25);
-		this._button_26=document.createElement('div');
-		this._button_26.ggId='Button 26'
-		this._button_26.ggParameter={ rx:0,ry:0,a:0,sx:0.5,sy:0.5 };
-		this._button_26.ggVisible=true;
-		this._button_26.ggUpdatePosition=function() {
+		this._image_250.setAttribute('style',hs);
+		this._image_250__img=document.createElement('img');
+		this._image_250__img.setAttribute('src',basePath + 'images/image_250.png');
+		this._image_250__img.setAttribute('style','position: absolute;top: 0px;left: 0px;');
+		me.player.checkLoaded.push(this._image_250__img);
+		this._image_250.appendChild(this._image_250__img);
+		this.divSkin.appendChild(this._image_250);
+		this._image_25=document.createElement('div');
+		this._image_25.ggId='Image 25'
+		this._image_25.ggParameter={ rx:0,ry:0,a:0,sx:0.6,sy:0.6 };
+		this._image_25.ggVisible=true;
+		this._image_25.ggUpdatePosition=function() {
 			this.style[domTransition]='none';
 			if (this.parentNode) {
 				w=this.parentNode.offsetWidth;
-				this.style.left=(-127 + w) + 'px';
+				this.style.left=(-225 + w) + 'px';
 				h=this.parentNode.offsetHeight;
-				this.style.top=(0 + h/2) + 'px';
+				this.style.top=(-276 + h/2) + 'px';
 			}
 		}
 		hs ='position:absolute;';
-		hs+='left: -127px;';
-		hs+='top:  0px;';
-		hs+='width: 118px;';
-		hs+='height: 122px;';
+		hs+='left: -225px;';
+		hs+='top:  -276px;';
+		hs+='width: 193px;';
+		hs+='height: 533px;';
 		hs+=cssPrefix + 'transform-origin: 100% 50%;';
-		hs+=cssPrefix + 'transform: ' + parameterToTransform(this._button_26.ggParameter) + ';';
+		hs+=cssPrefix + 'transform: ' + parameterToTransform(this._image_25.ggParameter) + ';';
 		hs+='visibility: inherit;';
-		hs+='cursor: pointer;';
-		this._button_26.setAttribute('style',hs);
-		this._button_26__img=document.createElement('img');
-		this._button_26__img.setAttribute('src',basePath + 'images/button_26.png');
-		this._button_26__img.setAttribute('style','position: absolute;top: 0px;left: 0px;');
-		me.player.checkLoaded.push(this._button_26__img);
-		this._button_26.appendChild(this._button_26__img);
-		this._button_26.onclick=function () {
-			me.player.changeViewstate("0",".05");
-		}
-		this._button_26.onmouseover=function () {
-			me._button_26__img.src=basePath + 'images/button_26__o.png';
-		}
-		this._button_26.onmouseout=function () {
-			me._button_26__img.src=basePath + 'images/button_26.png';
-		}
-		this.divSkin.appendChild(this._button_26);
+		this._image_25.setAttribute('style',hs);
+		this._image_25__img=document.createElement('img');
+		this._image_25__img.setAttribute('src',basePath + 'images/image_25.png');
+		this._image_25__img.setAttribute('style','position: absolute;top: 0px;left: 0px;');
+		me.player.checkLoaded.push(this._image_25__img);
+		this._image_25.appendChild(this._image_25__img);
+		this.divSkin.appendChild(this._image_25);
 		this.preloadImages();
 		this.divSkin.ggUpdateSize=function(w,h) {
 			me.updateSize(me.divSkin);
